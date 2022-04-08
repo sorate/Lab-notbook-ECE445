@@ -64,3 +64,23 @@ Work on the individual progress report.
 I realize that the battery may not work and tried to find a new solution.
 ### 4/02/2022
 Decide the best option for the battery
+### 4/06/2022
+Pratheek and I went to the lab to start soldering and testing the PCB.
+We started with the power subsystem to verify the desired voltages.
+
+First, we soldered all the the power subsystem and when we provided power to the PCB, the regulators got hot and we may have burned them.
+We checked again that the connections were good and that the components were well soldered. But we could not find the problem.
+
+## 4/07/2022
+After some troubleshooting we resolved some of the problems with the connections to the battery and the connections to the switch.
+We then unit tested both of the voltage regulators.
+We first only added the 5 V regulator to the PCB and powered it on, this resulted in the desired behaviour. We were able to drop 6.4 V to 5 V.
+
+However, when we added the 3.3V regulator we experienced the same problem as before, both regulators got too hot, we were able to turn off the circuit to prevent the regulators from getting damaged.
+We checked using the multimeter and there aren't any shorts in the circuit which tells us that this isn't a soldering problem.
+
+Finally, we have realized that the problem is in the 3.3 V LDO footprint. We designed the PCB layout for an LDO but when we placed the order they were out of stock. We ordered another LDO with the same features and same package but it did not have the same pin values.
+
+We ordered a new LDO that works with our PCB. Tomorrow, I will check the voltages using the LDO we had but making external connections to connect the pins correctly.
+
+
