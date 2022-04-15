@@ -82,5 +82,16 @@ We checked using the multimeter and there aren't any shorts in the circuit which
 Finally, we have realized that the problem is in the 3.3 V LDO footprint. We designed the PCB layout for an LDO but when we placed the order they were out of stock. We ordered another LDO with the same features and same package but it did not have the same pin values.
 
 We ordered a new LDO that works with our PCB. Tomorrow, I will check the voltages using the LDO we had but making external connections to connect the pins correctly.
+## 4/08/2022
+I went to the lab to make the external connections to check that the voltages were as desired. 
 
+When I was making the external connections I broke some wires on the PCB but I was still able to make the connections. I checked that the connections of all the nodes were correct and I checked the voltages. The voltage on the microcontroller pins is 3.3 V so it is correct.
+
+I also soldered and checked that the button and LED circuit are working correctly. 
+The button worked correctly the first time. 
+
+To check the LED circuit I had to put 3.3V on the microcontroller pin with an external connection. Also as we didn't have the LED PCB I made a connection as I could and checked that the circuit also works correctly. However, the connections were not very good so the LED connection was not very stable.
+## 4/11/2022
+## 4/13/2022
+## 4/14/2022
 
