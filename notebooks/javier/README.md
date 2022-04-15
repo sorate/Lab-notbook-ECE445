@@ -68,8 +68,10 @@ Decide the best option for the battery
 Pratheek and I went to the lab to start soldering and testing the PCB.
 We started with the power subsystem to verify the desired voltages.
 
+The schottky diode we ordered to prevent the reverse voltage did not have the same footprint as the one we have in the PCB so we started testing making a short but being carefull with the battery polarity.
+
 First, we soldered all the the power subsystem and when we provided power to the PCB, the regulators got hot and we may have burned them.
-We checked again that the connections were good and that the components were well soldered. But we could not find the problem.
+We checked again using the multimeter that the connections were good and that the components were well soldered. But we could not find the problem.
 
 ## 4/07/2022
 After some troubleshooting we resolved some of the problems with the connections to the battery and the connections to the switch.
@@ -85,13 +87,24 @@ We ordered a new LDO that works with our PCB. Tomorrow, I will check the voltage
 ## 4/08/2022
 I went to the lab to make the external connections to check that the voltages were as desired. 
 
-When I was making the external connections I broke some wires on the PCB but I was still able to make the connections. I checked that the connections of all the nodes were correct and I checked the voltages. The voltage on the microcontroller pins is 3.3 V so it is correct.
+When I was making the external connections I broke some wires on the PCB but I was still able to make the connections. I checked using a multimeter that the connections of all the nodes were good and I also checked the voltages. The voltage on the microcontroller pins is 3.3 V so it is correct.
 
 I also soldered and checked that the button and LED circuit are working correctly. 
 The button worked correctly the first time. 
 
-To check the LED circuit I had to put 3.3V on the microcontroller pin with an external connection. Also as we didn't have the LED PCB I made a connection as I could and checked that the circuit also works correctly. However, the connections were not very good so the LED connection was not very stable.
+To check the LED circuit I had to put 3.3 V on the microcontroller pin with an external connection. Also as we didn't have the LED PCB I made a connection as I could and checked that the circuit also works correctly. However, the connections were not very good so the LED connection was not very stable.
 ## 4/11/2022
+We received the new LDO so I went to the lab to test it.
+I had to unsolder some of the components I had and solder them on a new PCB because some connections were broken the day before.
+
+As I was soldering the components I checked that the connections and voltages were the desired ones.
+In addition I made new connections for the LED and I could check that it always works as expected.
 ## 4/13/2022
+We received the second PCB ordering. I went to the lab to solder everything in our final PCB.
+I did the same process as the previous days and soldered all the PCB components except the microcontroller. I checked that the voltages and connections were good with the multimeter.The only difference is that I was also able to verify that the buzzer circuit works. For this I made an external connection to put 3.3 V on the microcontroller pin.
+
+Also Pratheek and I went to talk to the machine shop to tell them about the design we had in mind so they start building the physical project.
+
 ## 4/14/2022
 
+I went with Pratheek to the lab and we soldered the microcontroller and 2 missing pin connectors.
