@@ -3,14 +3,19 @@
 
 ### 1/27/2022
 Meeting and work in the project approval and submit it.
+We have thought of a small device that can be kept on a table at home. The device is intended for visually impaired or blind people, therefore, it needs a LED to illuminate the tray where the bill is deposited, easy access to change the battery and ease of placing the bill.
 ### 1/28/2022
-CAD assignment
+CAD assignment: 
+Learned how to make schematics and PCB layout of a PCB.
 ### 2/8/2022
-Work in the Project proposal
+Work in the Project proposal.
 ### 2/9/2022
-Research on how to implement the machine learning model
+Finished and submitted the project proposal.
+
+Research on how to implement the machine learning model. 
 ### 2/12/2022
-Research on hot to put the model in the microcontroller
+Research on how can we use the model in the microcontroller.
+We could use TensorFLow.TensorFlow is a python library that allows easy manipulation and convolution for tensors that are used in the neural network 
 ### 2/14/2022
 Meeting to discuss the Design Document
 
@@ -20,9 +25,12 @@ Fix Proposal errors, rewrite some parts and added changes to the design document
 
 Research on voltage regulators, denoise capacitors, the use of diodes to prevent reverse polarity and how to prevent. Create a document with all the information.
 ### 2/19/2022
-Research on components.
+Keep working on the Power Supply circuit. First approach: Use 5 V battery and 3.3 V for the microcontroller, LED, buzzer and camera.
 
-Design Power supply circuit schematic and start choosing some components.
+Research on the components we need to know how to design the circuits.
+### 2/21/2022
+Continue research on the schematics for our components.
+I realized we needed a MOSFET for the LED and Buzzer circuit. As the maximum output current of the microcontroller is smaller than the current that need the LED and the Buzzer.
 ### 2/22/2022
 Design Document Review.
 ### 2/23/2022
@@ -30,16 +38,20 @@ Soldering Assignment.
 ### 2/27/2022
 LED circuit schematic, mosfet current analysis, button debouncing system circuit schematic.
 
-Change voltage regulators and power supply circuit because 5 V are needed for the LED circuit.
+Change voltage regulators and power supply circuit because 5 V are needed for the LED and buzzer circuits.
 
-Choosing some components (Mosfet, resistors, capacitors, voltage regulators).
+Choosing some components (Mosfets, resistors, capacitors, voltage regulators).
 
 ### 3/5/2022
-Microcontroller schematic circuit: Add external pin connectors and do the connections needed. Choose pin connectors
+Microcontroller schematic circuit: Add external pin connectors and do the connections needed.
+
+Design the schematics using external pin connectors in case some connections fail we still have access to our microcontroller. We use 2 10 pin header connectors to output the 5 V, 3.3 V, ground and several pins of the microcontroller.
 ### 3/6/2022
 Finish the schematic
 ### 3/7/2022
-Change voltage regulators because there were not in the stock market and do the footprints assignment to each element.
+Change voltage regulators because there were not in the stock market. Change the schematics of the voltage regulator that drops the voltage from 6 V to 5 V as the new voltage regulator has a different footprint. 
+Do the footprints assignment to each element (resistors, capacitors, voltage regulators...). 
+Almost all the footprints were in the CAD libraries but 
 ### 3/8/2022
 Layout:
 
@@ -73,7 +85,7 @@ The schottky diode we ordered to prevent the reverse voltage did not have the sa
 First, we soldered all the the power subsystem and when we provided power to the PCB, the regulators got hot and we may have burned them.
 We checked again using the multimeter that the connections were good and that the components were well soldered. But we could not find the problem.
 
-## 4/07/2022
+### 4/07/2022
 After some troubleshooting we resolved some of the problems with the connections to the battery and the connections to the switch.
 We then unit tested both of the voltage regulators.
 We first only added the 5 V regulator to the PCB and powered it on, this resulted in the desired behaviour. We were able to drop 6.4 V to 5 V.
@@ -84,7 +96,7 @@ We checked using the multimeter and there aren't any shorts in the circuit which
 Finally, we have realized that the problem is in the 3.3 V LDO footprint. We designed the PCB layout for an LDO but when we placed the order they were out of stock. We ordered another LDO with the same features and same package but it did not have the same pin values.
 
 We ordered a new LDO that works with our PCB. Tomorrow, I will check the voltages using the LDO we had but making external connections to connect the pins correctly.
-## 4/08/2022
+### 4/08/2022
 I went to the lab to make the external connections to check that the voltages were as desired. 
 
 When I was making the external connections I broke some wires on the PCB but I was still able to make the connections. I checked using a multimeter that the connections of all the nodes were good and I also checked the voltages. The voltage on the microcontroller pins is 3.3 V so it is correct.
@@ -93,18 +105,18 @@ I also soldered and checked that the button and LED circuit are working correctl
 The button worked correctly the first time. 
 
 To check the LED circuit I had to put 3.3 V on the microcontroller pin with an external connection. Also as we didn't have the LED PCB I made a connection as I could and checked that the circuit also works correctly. However, the connections were not very good so the LED connection was not very stable.
-## 4/11/2022
+### 4/11/2022
 We received the new LDO so I went to the lab to test it.
 I had to unsolder some of the components I had and solder them on a new PCB because some connections were broken the day before.
 
 As I was soldering the components I checked that the connections and voltages were the desired ones.
 In addition I made new connections for the LED and I could check that it always works as expected.
-## 4/13/2022
+### 4/13/2022
 We received the second PCB ordering. I went to the lab to solder everything in our final PCB.
 I did the same process as the previous days and soldered all the PCB components except the microcontroller. I checked that the voltages and connections were good with the multimeter.The only difference is that I was also able to verify that the buzzer circuit works. For this I made an external connection to put 3.3 V on the microcontroller pin.
 
 Also Pratheek and I went to talk to the machine shop to tell them about the design we had in mind so they start building the physical project.
 
-## 4/14/2022
+### 4/14/2022
 
 I went with Pratheek to the lab and we soldered the microcontroller and 2 missing pin connectors.
