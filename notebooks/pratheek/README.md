@@ -9,10 +9,11 @@ Beginning research on ways to load CNN for image classification onto a microcont
 
 Image processing will also need to be thought of because all images fed into the model need to be the same size to reduce variance.
 
-## 02/20/2022 - Starting Research on different types of cmaeras and cameras that work with simple communication interfaces <a name = "camera"></a>
+## 02/20/2022 - Starting Research on different types of cameras and cameras that work with simple communication interfaces <a name = "camera"></a>
 
 https://www.amazon.com/ov7670-fifo/s?k=ov7670+fifo 
 
 Might be a possible camera but it doesn't have the best resolution and pixel accuracy. We need relatively high pixel accuracy in order for the model to predict things correctly.
 
 
+## 
