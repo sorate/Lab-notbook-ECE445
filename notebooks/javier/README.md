@@ -125,7 +125,7 @@ I went with Pratheek to the lab and we soldered the microcontroller and 2 missin
 ### 4/17/2022
 We were able to flash the microcontroller. So all the PCB works. We have a fully operational PCB. 
 ### 4/18/2022
-We receive the physical device from the machine shop.
+We received the physical device from the machine shop.
 ### 4/19/2022
 Mock demo with the TA. I realized we should make some changes to the pysical designed.
 The LED PCB is located vertically so the LED is not iluminating the tray and we can have a plastic corner to help the user placing the bill on the tray.
@@ -136,10 +136,16 @@ Tilt the LED to illuminate the tray where the bill is deposited. Add a plastic c
 ### 4/26/2022
 
 ### 4/27/2022
-
+Final Demonstration
 ### 4/28/2022
+Worked on the slides for the Mock Presentation. Decide who is going to explain each part.
 ### 4/29/2022
+Finished the slides for the Mock presentation and did the Mock presentation.
 ### 5/01/2022
+Corrected some errors we had in the Mock presentation. Added some new slides for the final presentation. Wrote down the contents I will say in the final presentation.
 ### 5/02/2022
+Finished the slides for the final presentation and practiced what I was going to say. Did the final presentation. 
 ### 5/04/2022
+Wrote down the final paper and submitted it.
 ### 5/05/2022
+Lab checkout. Fini
