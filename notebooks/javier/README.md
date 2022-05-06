@@ -134,8 +134,10 @@ As the 20th was not the person of the machine shop who is making our device I we
 
 Tilt the LED to illuminate the tray where the bill is deposited. Add a plastic corner on the tray so that the user knows where to place the bill. In this way we reduce the number of orientations of the bill and the bill is always placed in the same place getting the camera to focus well on the bill.
 ### 4/26/2022
-
+went to the lab to finish what we have for the device. Prepare demonstration.
 ### 4/27/2022
+Make some changes to the code. Prepare for the demonstration.
+
 Final Demonstration
 ### 4/28/2022
 Worked on the slides for the Mock Presentation. Decide who is going to explain each part.
@@ -148,4 +150,4 @@ Finished the slides for the final presentation and practiced what I was going to
 ### 5/04/2022
 Wrote down the final paper and submitted it.
 ### 5/05/2022
-Lab checkout. Fini
+Lab checkout.
